@@ -1,0 +1,108 @@
+Dependencies for Project 'main', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\main.c)(0x64CB57DE)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\components -I ..\..\components\drivers_nrf -I ..\..\components\libraries\bsp -I ..\..\components\libraries\delay -I ..\..\config\nrf52840 -I ..\..\config\nrf52840\armgcc -I ..\..\integration\nrfx\legacy -I ..\..\integration -I ..\..\integration\nrfx -I ..\..\modules -I ..\..\modules\nrfx -I ..\..\modules\nrfx\drivers -I ..\..\modules\nrfx\drivers\include -I ..\..\modules\nrfx\hal -I ..\..\modules\nrfx\templates -I ..\..\modules\nrfx\templates\nRF52840 -I ..\..\config\nrf52840\config -I ..\..\components\libraries\util -I ..\..\components\drivers_nrf\nrf_soc_nosd --reduce_paths-I.\RTE\_Target_1-IC:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DBSP_DEFINES_ONLY -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\..\components\libraries\delay\nrf_delay.h)(0x5F5B7109)
+I (..\..\modules\nrfx\nrfx.h)(0x5F5B710F)
+I (..\..\integration\nrfx\nrfx_config.h)(0x5F5B710F)
+I (..\..\config\nrf52840\config\sdk_config.h)(0x5F5B7109)
+I (..\..\modules\nrfx\drivers/nrfx_common.h)(0x5F5B710F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52840.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\system_nrf52840.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52840_bitfields.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf51_to_nrf52840.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52_to_nrf52840.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52840_peripherals.h)(0x61972BE0)
+I (..\..\integration\nrfx\nrfx_glue.h)(0x5F5B710F)
+I (..\..\integration\nrfx\legacy/apply_old_config.h)(0x5F5B710F)
+I (..\..\modules\nrfx\soc/nrfx_irqs.h)(0x5F5B710F)
+I (..\..\modules\nrfx\soc/nrfx_irqs_nrf52840.h)(0x5F5B710F)
+I (..\..\components\libraries\util\nrf_assert.h)(0x5F5B7109)
+I (..\..\components\libraries\util\app_util.h)(0x5F5B7109)
+I (..\..\components\libraries\util\nordic_common.h)(0x5F5B7109)
+I (..\..\components\libraries\util\app_util_platform.h)(0x5F5B7109)
+I (..\..\components\libraries\util\app_error.h)(0x5F5B7109)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\components\libraries\util\sdk_errors.h)(0x5F5B7109)
+I (..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5F5B7109)
+I (..\..\components\libraries\util\app_error_weak.h)(0x5F5B7109)
+I (..\..\modules\nrfx\soc/nrfx_coredep.h)(0x5F5B710F)
+I (..\..\modules\nrfx\soc/nrfx_atomic.h)(0x5F5B710F)
+I (..\..\components\libraries\util\sdk_resources.h)(0x5F5B7109)
+I (..\..\modules\nrfx\drivers/nrfx_errors.h)(0x5F5B710F)
+I (..\..\drive\led.h)(0x64CB4DB8)
+F (..\..\config\nrf52840\config\sdk_config.h)(0x5F5B7109)()
+F (..\..\drive\led.c)(0x64CB4DB8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\components -I ..\..\components\drivers_nrf -I ..\..\components\libraries\bsp -I ..\..\components\libraries\delay -I ..\..\config\nrf52840 -I ..\..\config\nrf52840\armgcc -I ..\..\integration\nrfx\legacy -I ..\..\integration -I ..\..\integration\nrfx -I ..\..\modules -I ..\..\modules\nrfx -I ..\..\modules\nrfx\drivers -I ..\..\modules\nrfx\drivers\include -I ..\..\modules\nrfx\hal -I ..\..\modules\nrfx\templates -I ..\..\modules\nrfx\templates\nRF52840 -I ..\..\config\nrf52840\config -I ..\..\components\libraries\util -I ..\..\components\drivers_nrf\nrf_soc_nosd --reduce_paths-I.\RTE\_Target_1-IC:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DBSP_DEFINES_ONLY -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\..\drive\led.h)(0x64CB4DB8)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52840.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\system_nrf52840.h)(0x61972BE0)
+I (..\..\modules\nrfx\hal\nrf_gpio.h)(0x5F5B710F)
+I (..\..\modules\nrfx\nrfx.h)(0x5F5B710F)
+I (..\..\integration\nrfx\nrfx_config.h)(0x5F5B710F)
+I (..\..\config\nrf52840\config\sdk_config.h)(0x5F5B7109)
+I (..\..\modules\nrfx\drivers/nrfx_common.h)(0x5F5B710F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52840_bitfields.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf51_to_nrf52840.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52_to_nrf52840.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52840_peripherals.h)(0x61972BE0)
+I (..\..\integration\nrfx\nrfx_glue.h)(0x5F5B710F)
+I (..\..\integration\nrfx\legacy/apply_old_config.h)(0x5F5B710F)
+I (..\..\modules\nrfx\soc/nrfx_irqs.h)(0x5F5B710F)
+I (..\..\modules\nrfx\soc/nrfx_irqs_nrf52840.h)(0x5F5B710F)
+I (..\..\components\libraries\util\nrf_assert.h)(0x5F5B7109)
+I (..\..\components\libraries\util\app_util.h)(0x5F5B7109)
+I (..\..\components\libraries\util\nordic_common.h)(0x5F5B7109)
+I (..\..\components\libraries\util\app_util_platform.h)(0x5F5B7109)
+I (..\..\components\libraries\util\app_error.h)(0x5F5B7109)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\..\components\libraries\util\sdk_errors.h)(0x5F5B7109)
+I (..\..\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5F5B7109)
+I (..\..\components\libraries\util\app_error_weak.h)(0x5F5B7109)
+I (..\..\modules\nrfx\soc/nrfx_coredep.h)(0x5F5B710F)
+I (..\..\modules\nrfx\soc/nrfx_atomic.h)(0x5F5B710F)
+I (..\..\components\libraries\util\sdk_resources.h)(0x5F5B7109)
+I (..\..\modules\nrfx\drivers/nrfx_errors.h)(0x5F5B710F)
+F (..\..\drive\led.h)(0x64CB4DB8)()
+F (..\..\components\libraries\delay\nrf_delay.h)(0x5F5B7109)()
+F (RTE/Device/nRF52840_xxAA/arm_startup_nrf52840.s)(0x61972BE0)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"  --cpreproc_opts=-DBOARD_PCA10056,-DBSP_DEFINES_ONLY,-DCONFIG_GPIO_AS_PINRESET,-DFLOAT_ABI_HARD,-DNRF52840_XXAA,-D__HEAP_SIZE=8192,-D__STACK_SIZE=8192-I.\RTE\_Target_1-IC:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "NRF52840_XXAA SETA 1" --pd "_RTE_ SETA 1" --pd "BOARD_PCA10056 SETA 1" --pd "BSP_DEFINES_ONLY SETA 1" --pd "CONFIG_GPIO_AS_PINRESET SETA 1" --pd "FLOAT_ABI_HARD SETA 1" --pd "NRF52840_XXAA SETA 1" --pd "__HEAP_SIZE SETA 8192" --pd "__STACK_SIZE SETA 8192"--list .\listings\arm_startup_nrf52840.lst --xref -o .\objects\arm_startup_nrf52840.o --depend .\objects\arm_startup_nrf52840.d)
+F (RTE/Device/nRF52840_xxAA/system_nrf52.c)(0x61972BE0)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\components -I ..\..\components\drivers_nrf -I ..\..\components\libraries\bsp -I ..\..\components\libraries\delay -I ..\..\config\nrf52840 -I ..\..\config\nrf52840\armgcc -I ..\..\integration\nrfx\legacy -I ..\..\integration -I ..\..\integration\nrfx -I ..\..\modules -I ..\..\modules\nrfx -I ..\..\modules\nrfx\drivers -I ..\..\modules\nrfx\drivers\include -I ..\..\modules\nrfx\hal -I ..\..\modules\nrfx\templates -I ..\..\modules\nrfx\templates\nRF52840 -I ..\..\config\nrf52840\config -I ..\..\components\libraries\util -I ..\..\components\drivers_nrf\nrf_soc_nosd --reduce_paths-I.\RTE\_Target_1-IC:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include-D__UVISION_VERSION="538" -D_RTE_ -DNRF52840_XXAA -D_RTE_ -DBOARD_PCA10056 -DBSP_DEFINES_ONLY -DCONFIG_GPIO_AS_PINRESET -DFLOAT_ABI_HARD -DNRF52840_XXAA -D__HEAP_SIZE="8192" -D__STACK_SIZE="8192"-o .\objects\system_nrf52.o --omf_browse .\objects\system_nrf52.crf --depend .\objects\system_nrf52.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E3CC2)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52840.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F4ADE)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F4ADE)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F4ADE)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F4ADE)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F4ADE)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\system_nrf52840.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52840_bitfields.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf51_to_nrf52840.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52_to_nrf52840.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\compiler_abstraction.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf_peripherals.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52840_peripherals.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\nrf52_erratas.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\system_nrf52.h)(0x61972BE0)
+I (C:\Users\nyjy\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.44.1\Device\Include\system_nrf52_approtect.h)(0x61972BE0)
